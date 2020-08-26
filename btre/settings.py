@@ -152,3 +152,8 @@ EMAIL_PORT = 25 # https://serversmtp.com/smtp-hotmail/
 EMAIL_HOST_USER = 'wzheng68@hotmail.com'
 EMAIL_HOST_PASSWORD = 'wonder1985'
 EMAIL_USE_TLS=True
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
