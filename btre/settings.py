@@ -151,7 +151,7 @@ EMAIL_PORT = 25 # https://serversmtp.com/smtp-hotmail/
 #EMAIL_HOST = 'smtp.gmail.com'
 #EMAIL_PORT = 587
 EMAIL_HOST_USER = 'wzheng68@hotmail.com'
-EMAIL_HOST_PASSWORD = 'wonder1985'
+EMAIL_HOST_PASSWORD = '##' #fake password here, email function has been disabled
 EMAIL_USE_TLS=True
 
 try:
