@@ -145,14 +145,14 @@ MESSAGE_TAGS = {
 }
 
 # Email config
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' #new stuff
-EMAIL_HOST = 'smtp.live.com' # I will use hotmail
-EMAIL_PORT = 25 # https://serversmtp.com/smtp-hotmail/
+#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' #new stuff
+#EMAIL_HOST = 'smtp.live.com' # I will use hotmail
+#EMAIL_PORT = 25 # https://serversmtp.com/smtp-hotmail/
 #EMAIL_HOST = 'smtp.gmail.com'
 #EMAIL_PORT = 587
-EMAIL_HOST_USER = 'wzheng68@hotmail.com'
-EMAIL_HOST_PASSWORD = '##' #fake password here, email function has been disabled
-EMAIL_USE_TLS=True
+#EMAIL_HOST_USER = 'wzheng68@hotmail.com'
+#EMAIL_HOST_PASSWORD = '##' #fake password here, email function has been disabled
+#EMAIL_USE_TLS=True
 
 try:
     from .local_settings import *
